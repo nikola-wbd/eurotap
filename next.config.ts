@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
+// For Vercel: Use this config (serverless)                                                                                                                                                                                                         
+// For static export (client hosting): Use output: 'export'
+
 const nextConfig: NextConfig = {
-  output: 'export',
   images: {
     unoptimized: true,
   },
